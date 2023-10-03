@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 3.2.2 (Python 3.8.0 on win32)" generated="20220608 17:45:08.779" rpa="false">
+<suite id="s1" name="ProyekRobot" source="D:\SEMESTER IV\PKPL\PROYEK2\ProyekRobot">
+<suite id="s1-s1" name="TestSuite" source="D:\SEMESTER IV\PKPL\PROYEK2\ProyekRobot\TestSuite">
+<suite id="s1-s1-s1" name="DeleteItem" source="D:\SEMESTER IV\PKPL\PROYEK2\ProyekRobot\TestSuite\DeleteItem.robot">
+<test id="s1-s1-s1-t1" name="Deleteitem">
+<kw name="Open Browser" library="SeleniumLibrary">
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<arguments>
+<arg>https://www.elevenia.co.id/</arg>
+<arg>edge</arg>
+</arguments>
+<msg timestamp="20220608 17:45:09.277" level="INFO">Opening browser 'edge' to base url 'https://www.elevenia.co.id/'.</msg>
+<msg timestamp="20220608 17:45:13.240" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20220608 17:45:13.243" level="FAIL">SessionNotCreatedException: Message: session not created: This version of MSEdgeDriver only supports MSEdge version 100
+Current browser version is 102.0.1245.33 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+Backtrace:
+	Microsoft::Applications::Events::EventProperties::unpack [0x00007FF7B42A92F2+24834]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF7B41E6752+523442]
+	Ordinal0 [0x00007FF7B3CE13B5+660405]
+	Ordinal0 [0x00007FF7B3D0C435+836661]
+	Ordinal0 [0x00007FF7B3D0790C+817420]
+	Ordinal0 [0x00007FF7B3D034B0+799920]
+	Ordinal0 [0x00007FF7B3D3D49D+1037469]
+	Ordinal0 [0x00007FF7B3D37BB3+1014707]
+	Ordinal0 [0x00007FF7B3D0EAE0+846560]
+	Ordinal0 [0x00007FF7B3D0FED8+851672]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7B3EAA6E8+846504]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7B3F9ACA1+36529]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7B3F9DFC2+49618]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7B3DE3566+31014]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF7B41ED6D1+551985]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF7B41F21E4+571204]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF7B41F233D+571549]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF7B41FB46E+608718]
+	BaseThreadInitThunk [0x00007FFC114254E0+16]
+	RtlUserThreadStart [0x00007FFC1198485B+43]
+</msg>
+<status status="FAIL" starttime="20220608 17:45:09.276" endtime="20220608 17:45:13.244"></status>
+</kw>
+<status status="FAIL" starttime="20220608 17:45:09.275" endtime="20220608 17:45:13.244" critical="yes">SessionNotCreatedException: Message: session not created: This version of MSEdgeDriver only supports MSEdge version 100
+Current browser version is 102.0.1245.33 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Stacktrace:
+Backtrace:
+	Microsoft::Applications::Events::EventProperties::unpack [0x00007FF7B42A92F2+24834]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF7B41E6752+523442]
+	Ordinal0 [0x00007FF7B3CE13B5+660405]
+	Ordinal0 [0x00007FF7B3D0C435+836661]
+	Ordinal0 [0x00007FF7B3D0790C+817420]
+	Ordinal0 [0x00007FF7B3D034B0+799920]
+	Ordinal0 [0x00007FF7B3D3D49D+1037469]
+	Ordinal0 [0x00007FF7B3D37BB3+1014707]
+	Ordinal0 [0x00007FF7B3D0EAE0+846560]
+	Ordinal0 [0x00007FF7B3D0FED8+851672]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7B3EAA6E8+846504]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7B3F9ACA1+36529]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF7B3F9DFC2+49618]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7B3DE3566+31014]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF7B41ED6D1+551985]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF7B41F21E4+571204]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF7B41F233D+571549]
+	Microsoft::Applications::Events::time_ticks_t::time_ticks_t [0x00007FF7B41FB46E+608718]
+	BaseThreadInitThunk [0x00007FFC114254E0+16]
+	RtlUserThreadStart [0x00007FFC1198485B+43]
+</status>
+</test>
+<status status="FAIL" starttime="20220608 17:45:08.899" endtime="20220608 17:45:13.245"></status>
+</suite>
+<status status="FAIL" starttime="20220608 17:45:08.894" endtime="20220608 17:45:13.248"></status>
+</suite>
+<status status="FAIL" starttime="20220608 17:45:08.857" endtime="20220608 17:45:13.250"></status>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1">Critical Tests</stat>
+<stat pass="0" fail="1">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" id="s1" name="ProyekRobot">ProyekRobot</stat>
+<stat pass="0" fail="1" id="s1-s1" name="TestSuite">ProyekRobot.TestSuite</stat>
+<stat pass="0" fail="1" id="s1-s1-s1" name="DeleteItem">ProyekRobot.TestSuite.DeleteItem</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
